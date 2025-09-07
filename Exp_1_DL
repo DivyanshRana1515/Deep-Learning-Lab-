@@ -1,0 +1,52 @@
+AIM: 
+To study and understand the basic features, architecture, and use cases of popular deep learning frameworks: TensorFlow, Keras, and PyTorch.
+
+
+THEORY:
+
+1. Deep Learning Frameworks Overview
+Deep Learning frameworks provide pre-built functions, modules, and tools to design, train, and evaluate neural networks efficiently. They handle matrix computations, automatic differentiation, GPU acceleration, and high-level abstractions.
+________________________________________
+2. TensorFlow
+•	Developer: Google Brain Team
+•	Type: Open-source, highly scalable, supports multiple languages (Python, C++, Java, JavaScript).
+•	Features:
+o	Supports both high-level APIs (Keras) and low-level operations.
+o	Tensor computation with automatic differentiation.
+o	Deployment support on mobile, web, and embedded devices.
+•	Applications: Image recognition, NLP, time-series prediction, reinforcement learning.
+________________________________________
+3. Keras
+•	Developer: Initially by François Chollet, now part of TensorFlow.
+•	Type: High-level deep learning API running on top of TensorFlow (also supports Theano & CNTK in older versions).
+•	Features:
+o	User-friendly and modular.
+o	Ideal for quick prototyping.
+o	Offers layers, optimizers, and losses in a simple Pythonic way.
+•	Applications: Rapid prototyping for image classification, text processing, and sequential models.
+________________________________________
+4. PyTorch
+•	Developer: Facebook’s AI Research Lab (FAIR).
+•	Type: Open-source, dynamic computation graph.
+•	Features:
+o	Easy to debug due to Python-like execution flow.
+o	Strong GPU acceleration.
+o	Rich ecosystem (TorchVision, TorchText, TorchAudio).
+•	Applications: Research, NLP, computer vision, reinforcement learning.
+________________________________________
+
+5. Comparison Table:
+Feature	TensorFlow	Keras	PyTorch
+Level	Low & High	High	Low & Mid
+Graph Type	Static/Dynamic	Static (earlier), Dynamic in TF 2.x	Dynamic
+Ease of Use	Medium	Very Easy	Easy
+Deployment	Strong (TF Lite, JS, Serving)	Strong (via TF)	Limited but improving (TorchServe, TorchScript)
+
+
+Commands/Code Used: Not required for this experiment.
+Results: 
+•	Understood the architecture, core features, and advantages of TensorFlow, Keras, and PyTorch.
+•	Learned the differences between static and dynamic computation graphs.
+•	Recognized the practical use cases for each framework in deep learning projects.
+Conclusion: 
+TensorFlow, Keras, and PyTorch are powerful frameworks that simplify deep learning model development. Keras is best for beginners and quick prototyping, TensorFlow is suitable for large-scale production deployments, and PyTorch is favored for research and experimentation due to its dynamic computation graph and Python-native feel.
